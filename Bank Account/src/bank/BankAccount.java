@@ -32,7 +32,7 @@ public class BankAccount {
         }
 
     }
-
+//Original withdraw method
     public void withdraw(double amount) {
         try {
             if (amount > 0 && amount <= balance) {
@@ -47,7 +47,7 @@ public class BankAccount {
         }
     }
 
-        // ✅ Overloaded withdraw method with a custom message
+        // Overloaded withdraw method with a custom message
     public void withdraw(double amount, String message) {
         try {
             if (amount > 0 && amount <= balance) {
